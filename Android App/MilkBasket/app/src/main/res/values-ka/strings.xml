@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Milk Basket</string>
+    <string name="milk_basket_intro">Milk and more.<font color='#2ED3AC'> Every Morning!</font></string>
+    <string name="milk_basket_name"><font color='#2ED3AC'>Milk</font> Basket</string>
+    <string name="vegetable_corner">ತರಕಾರಿ ಕಾರ್ನರ್</string>
+    <string name="fruits">ಹಣ್ಣುಗಳು</string>
+    <string name="vegetables">ತರಕಾರಿಗಳು</string>
+    <string name="cheese">ಗಿಣ್ಣು</string>
+    <string name="panner">ಪನ್ನರ್</string>
+    <string name="curd">ಮೊಸರು</string>
+    <string name="milk">ಹಾಲು</string>
+    <string name="homecare">ಹೋಂಕೇರ್</string>
+    <string name="daily_products">ದೈನಂದಿನ</string>
+    <string name="explore">ಅನ್ವೇಷಿಸಿ</string>
+    <string name="explore_vegetables">ತರಕಾರಿಗಳನ್ನು ಅನ್ವೇಷಿಸಿ</string>
+    <string name="top_selling">ಉನ್ನತ ಮಾರಾಟ</string>
+    <string name="others">ಇತರರು</string>
+    <string name="tomato">ಟೊಮೆಟೊ</string>
+    <string name="onion">ಈರುಳ್ಳಿ</string>
+    <string name="ladies_finger">ಲೇಡೀಸ್ ಫಿಂಗರ್</string>
+    <string name="carrot">ಕ್ಯಾರೆಟ್</string>
+    <string name="garlic">ಬೆಳ್ಳುಳ್ಳಿ</string>
+    <string name="cauliflower">ಹೂಕೋಸು</string>
+    <string name="shipped_from_mangalore">ಮಂಗಳೂರಿನಿಂದ ರವಾನಿಸಲಾಗಿದೆ</string>
+    <string name="supply_chain">ಸರಬರಾಜು ಸರಪಳಿ</string>
+    <string name="crop_shipped">ಬೆಳೆ ಸಾಗಿಸಲಾಗಿದೆ</string>
+    <string name="milk_basket_warehouse">ಹಾಲು ಬಾಸ್ಕೆಟ್ ಗೋದಾಮು</string>
+    <string name="order_if_placed">ಇರಿಸಿದರೆ ಆದೇಶ</string>
+    <string name="expected_delivery">ನಿರೀಕ್ಷಿತ ವಿತರಣೆ</string>
+    <string name="add_to_cart">ಕಾರ್ಟ್‌ಗೆ ಸೇರಿಸಿ</string>
+    <string name="chooseLanguage">Choose Language</string>
+</resources>

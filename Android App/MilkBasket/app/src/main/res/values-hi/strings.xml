@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Milk Basket</string>
+    <string name="milk_basket_intro">Milk and more.<font color='#2ED3AC'> Every Morning!</font></string>
+    <string name="milk_basket_name"><font color='#2ED3AC'>Milk</font> Basket</string>
+    <string name="vegetable_corner">सब्जियों का कोना</string>
+    <string name="fruits">फल</string>
+    <string name="vegetables">सब्जियां</string>
+    <string name="cheese">चीज़</string>
+    <string name="panner">पनीर</string>
+    <string name="curd">दही</string>
+    <string name="milk">दूध</string>
+    <string name="homecare">घर की देखभाल</string>
+    <string name="daily_products">दैनिक उत्पाद</string>
+    <string name="explore">अन्वेषण</string>
+    <string name="explore_vegetables">सब्जियों का अन्वेषण करें</string>
+    <string name="top_selling">रुझान</string>
+    <string name="others">दुसरे लोग</string>
+    <string name="tomato">टमाटर</string>
+    <string name="onion">प्याज</string>
+    <string name="ladies_finger">भिन्डी</string>
+    <string name="carrot">गाजर</string>
+    <string name="garlic">लहसुन</string>
+    <string name="cauliflower">गोभी</string>
+    <string name="shipped_from_mangalore">मैंगलोर से भेजा गया</string>
+    <string name="supply_chain">आपूर्ति श्रृंखला</string>
+    <string name="crop_shipped">फ़सल काट दी</string>
+    <string name="milk_basket_warehouse">Milk Basket गोदाम</string>
+    <string name="order_if_placed">आदेश दिया</string>
+    <string name="expected_delivery">अपेक्षित वितरण</string>
+    <string name="add_to_cart">कार्ट में डालें</string>
+    <string name="chooseLanguage">Choose Language</string>
+</resources>

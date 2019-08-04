@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <!-- NOTE: This list should be displayed in a list
+    instead of nested layouts -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/layout1">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tomato"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merlo_regular"
+            android:text="@string/tomato"
+            android:textSize="26dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 30 / kg"
+            android:textSize="25dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/merlo_regular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merlo_regular"
+            android:text="@string/shipped_from_mangalore"
+            android:textSize="20dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/ip1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/supply_chain"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/merlo_regular"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:id="@+id/i1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/from_to"
+                android:layout_marginLeft="90dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crop_shipped"
+                android:layout_marginLeft="130dp"
+                android:fontFamily="@font/merlo_regular"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/milk_basket_warehouse"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/merlo_regular"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01 Aug"
+                android:fontFamily="@font/merlo_regular"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01 Aug"
+                android:fontFamily="@font/merlo_regular"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="42dp"
+                android:textSize="18dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/i3"
+            android:layout_below="@+id/i1"
+            android:layout_marginTop="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/from_to"
+                android:layout_marginLeft="90dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/order_if_placed"
+                android:layout_marginLeft="130dp"
+                android:fontFamily="@font/merlo_regular"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/expected_delivery"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/merlo_regular"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02 Aug"
+                android:fontFamily="@font/merlo_regular"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03 Aug"
+                android:fontFamily="@font/merlo_regular"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="43dp"
+                android:textSize="18dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_cart"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:background="@drawable/gradiant_button"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/merlo_regular"
+        android:textSize="18dp"
+        android:id="@+id/addToCart"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"/>
+
+
+</LinearLayout>

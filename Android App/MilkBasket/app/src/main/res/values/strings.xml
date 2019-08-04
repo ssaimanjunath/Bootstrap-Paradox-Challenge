@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Milk Basket</string>
+    <string name="milk_basket_intro">Milk and more.<font color='#2ED3AC'> Every Morning!</font></string>
+    <string name="milk_basket_name"><font color='#2ED3AC'>Milk</font> Basket</string>
+    <string name="vegetable_corner">Vegetables Corner</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="cheese">Cheese</string>
+    <string name="panner">Panner</string>
+    <string name="curd">Curd</string>
+    <string name="milk">Milk</string>
+    <string name="homecare">Homecare</string>
+    <string name="daily_products">Daily Products</string>
+    <string name="explore">Explore</string>
+    <string name="explore_vegetables">Explore Vegetables</string>
+    <string name="top_selling">Top Selling</string>
+    <string name="others">Others</string>
+    <string name="tomato">Tomato</string>
+    <string name="onion">Onion</string>
+    <string name="ladies_finger">Ladies Finger</string>
+    <string name="carrot">Carrot</string>
+    <string name="garlic">Garlic</string>
+    <string name="cauliflower">Cauliflower</string>
+    <string name="shipped_from_mangalore">Shipped from Mangalore</string>
+    <string name="supply_chain">Supply Chain</string>
+    <string name="crop_shipped">Crop Shipped</string>
+    <string name="milk_basket_warehouse">Milk Basket Warehouse</string>
+    <string name="order_if_placed">Order if placed</string>
+    <string name="expected_delivery">Expected delivery</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="chooseLanguage">Choose Language</string>
+</resources>

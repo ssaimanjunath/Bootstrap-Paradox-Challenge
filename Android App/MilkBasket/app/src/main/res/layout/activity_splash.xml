@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nizhal.milkbasket.Splash"
+    android:background="#F9F9FA">
+
+    <TextView
+        android:id="@+id/label_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/merlo_semi_bold"
+        android:text="@string/milk_basket_name"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/milk_basket_intro"
+        android:id="@+id/label_sub"
+        android:fontFamily="@font/merlo_regular"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/grocery"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:background="@drawable/gradiant_button"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/merlo_regular"
+        android:textSize="18dp"
+        android:id="@+id/login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textAllCaps="false"
+        android:background="@drawable/gradiant_button2"
+        android:textColor="#000"
+        android:id="@+id/signup"
+        android:fontFamily="@font/merlo_regular"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"/>
+
+</RelativeLayout>
